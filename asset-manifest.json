@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/WeScribe-Frontend/static/css/main.53bf4e6e.chunk.css",
-    "main.js": "/WeScribe-Frontend/static/js/main.aed1d029.chunk.js",
-    "main.js.map": "/WeScribe-Frontend/static/js/main.aed1d029.chunk.js.map",
-    "runtime-main.js": "/WeScribe-Frontend/static/js/runtime-main.3c94eef6.js",
-    "runtime-main.js.map": "/WeScribe-Frontend/static/js/runtime-main.3c94eef6.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/WeScribe-Frontend/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.5143fcd6.chunk.js": "/WeScribe-Frontend/static/js/2.5143fcd6.chunk.js",
-    "static/js/2.5143fcd6.chunk.js.map": "/WeScribe-Frontend/static/js/2.5143fcd6.chunk.js.map",
-    "index.html": "/WeScribe-Frontend/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/WeScribe-Frontend/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.53bf4e6e.chunk.css.map": "/WeScribe-Frontend/static/css/main.53bf4e6e.chunk.css.map",
-    "static/js/2.5143fcd6.chunk.js.LICENSE.txt": "/WeScribe-Frontend/static/js/2.5143fcd6.chunk.js.LICENSE.txt",
-    "static/media/MainLayout.css": "/WeScribe-Frontend/static/media/background.4ab22d12.jpg",
-    "static/media/illustration.27f2f4eb.png": "/WeScribe-Frontend/static/media/illustration.27f2f4eb.png",
-    "static/media/index.d66d80bb.svg": "/WeScribe-Frontend/static/media/index.d66d80bb.svg"
+    "main.css": "/WeScribe_Frontend/static/css/main.6fd02c98.chunk.css",
+    "main.js": "/WeScribe_Frontend/static/js/main.ffbbfa0c.chunk.js",
+    "main.js.map": "/WeScribe_Frontend/static/js/main.ffbbfa0c.chunk.js.map",
+    "runtime-main.js": "/WeScribe_Frontend/static/js/runtime-main.c7877958.js",
+    "runtime-main.js.map": "/WeScribe_Frontend/static/js/runtime-main.c7877958.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/WeScribe_Frontend/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.5143fcd6.chunk.js": "/WeScribe_Frontend/static/js/2.5143fcd6.chunk.js",
+    "static/js/2.5143fcd6.chunk.js.map": "/WeScribe_Frontend/static/js/2.5143fcd6.chunk.js.map",
+    "index.html": "/WeScribe_Frontend/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/WeScribe_Frontend/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.6fd02c98.chunk.css.map": "/WeScribe_Frontend/static/css/main.6fd02c98.chunk.css.map",
+    "static/js/2.5143fcd6.chunk.js.LICENSE.txt": "/WeScribe_Frontend/static/js/2.5143fcd6.chunk.js.LICENSE.txt",
+    "static/media/MainLayout.css": "/WeScribe_Frontend/static/media/background.4ab22d12.jpg",
+    "static/media/illustration.27f2f4eb.png": "/WeScribe_Frontend/static/media/illustration.27f2f4eb.png",
+    "static/media/index.d66d80bb.svg": "/WeScribe_Frontend/static/media/index.d66d80bb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c94eef6.js",
+    "static/js/runtime-main.c7877958.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.5143fcd6.chunk.js",
-    "static/css/main.53bf4e6e.chunk.css",
-    "static/js/main.aed1d029.chunk.js"
+    "static/css/main.6fd02c98.chunk.css",
+    "static/js/main.ffbbfa0c.chunk.js"
   ]
 }
