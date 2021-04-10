@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/WeScribe_Frontend/static/css/main.6fd02c98.chunk.css",
-    "main.js": "/WeScribe_Frontend/static/js/main.ffbbfa0c.chunk.js",
-    "main.js.map": "/WeScribe_Frontend/static/js/main.ffbbfa0c.chunk.js.map",
+    "main.css": "/WeScribe_Frontend/static/css/main.c6a008ff.chunk.css",
+    "main.js": "/WeScribe_Frontend/static/js/main.f59f2536.chunk.js",
+    "main.js.map": "/WeScribe_Frontend/static/js/main.f59f2536.chunk.js.map",
     "runtime-main.js": "/WeScribe_Frontend/static/js/runtime-main.c7877958.js",
     "runtime-main.js.map": "/WeScribe_Frontend/static/js/runtime-main.c7877958.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/WeScribe_Frontend/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.5143fcd6.chunk.js": "/WeScribe_Frontend/static/js/2.5143fcd6.chunk.js",
-    "static/js/2.5143fcd6.chunk.js.map": "/WeScribe_Frontend/static/js/2.5143fcd6.chunk.js.map",
+    "static/css/2.d7a09ce1.chunk.css": "/WeScribe_Frontend/static/css/2.d7a09ce1.chunk.css",
+    "static/js/2.cab3b5ec.chunk.js": "/WeScribe_Frontend/static/js/2.cab3b5ec.chunk.js",
+    "static/js/2.cab3b5ec.chunk.js.map": "/WeScribe_Frontend/static/js/2.cab3b5ec.chunk.js.map",
     "index.html": "/WeScribe_Frontend/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/WeScribe_Frontend/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.6fd02c98.chunk.css.map": "/WeScribe_Frontend/static/css/main.6fd02c98.chunk.css.map",
-    "static/js/2.5143fcd6.chunk.js.LICENSE.txt": "/WeScribe_Frontend/static/js/2.5143fcd6.chunk.js.LICENSE.txt",
+    "static/css/2.d7a09ce1.chunk.css.map": "/WeScribe_Frontend/static/css/2.d7a09ce1.chunk.css.map",
+    "static/css/main.c6a008ff.chunk.css.map": "/WeScribe_Frontend/static/css/main.c6a008ff.chunk.css.map",
+    "static/js/2.cab3b5ec.chunk.js.LICENSE.txt": "/WeScribe_Frontend/static/js/2.cab3b5ec.chunk.js.LICENSE.txt",
+    "static/media/PageNotFound.9a3a9650.png": "/WeScribe_Frontend/static/media/PageNotFound.9a3a9650.png",
     "static/media/MainLayout.css": "/WeScribe_Frontend/static/media/background.4ab22d12.jpg",
     "static/media/illustration.27f2f4eb.png": "/WeScribe_Frontend/static/media/illustration.27f2f4eb.png",
     "static/media/index.d66d80bb.svg": "/WeScribe_Frontend/static/media/index.d66d80bb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c7877958.js",
-    "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.5143fcd6.chunk.js",
-    "static/css/main.6fd02c98.chunk.css",
-    "static/js/main.ffbbfa0c.chunk.js"
+    "static/css/2.d7a09ce1.chunk.css",
+    "static/js/2.cab3b5ec.chunk.js",
+    "static/css/main.c6a008ff.chunk.css",
+    "static/js/main.f59f2536.chunk.js"
   ]
 }
