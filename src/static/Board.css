@@ -1,0 +1,77 @@
+.outerBoard {
+  min-height: 100vh;
+  background-color: black;
+  overflow-y: hidden;
+}
+
+.button {
+  background-color: #212753 !important;
+  color: #EA72FF !important;
+}
+
+.button:hover {
+  background-color: #EA72FF !important;
+  color: #212753 !important;
+}
+
+.button:focus {
+  box-shadow: 0 0 0 2px rgba(234, 114, 255, 0.4) !important;
+}
+
+.video {
+  height: 80vh;
+}
+.whiteboard {
+  height: 80vh;
+  background-color: white;
+}
+.mainTrial {
+      box-shadow: 12px 12px 12px 0px rgba(54, 54, 54, 0.8);
+  /* display: flex; */
+  background-color: #090c2a;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 50px;
+  border: 2px solid black;
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  margin-left: 3vw;
+  width: 95vw;
+  height: 95vh;
+}
+.videoWrap {
+  background: #090c2a;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.row {
+  padding: 2vh 2vw;
+  margin: 0 !important;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  /* padding: 10px; */
+  height: 86vh;
+  overflow: hidden;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

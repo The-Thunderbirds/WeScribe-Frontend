@@ -1,8 +1,10 @@
 import React from "react";
 import illustration from "../assets/illustration.png";
-import "bootstrap/dist/css/bootstrap.min.css";
 
-function Home() {
+import "bootstrap/dist/css/bootstrap.min.css";
+import { connect } from "react-redux";
+function Home(props) {
+  const { isAuthenticated } = props;
   return (
     <div class="container px-4" style={{ marginTop: "19vh" }}>
       <div class="row flex-lg-row-reverse align-items-left g-5">
@@ -26,35 +28,53 @@ function Home() {
             videos.
           </p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <div>
-              <a
-                href="/WeScribe-Frontend/login"
-                type="button"
-                class="btn btn-outline-primary btn-lg px-4 me-md-2"
-              >
-                Sign In
-              </a>
-              <label style={{ color: "transparent" }}>.......</label>
-              <a
-                href="/WeScribe-Frontend/board"
-                type="button"
-                class="btn btn-outline-secondary btn-lg px-4 me-md-2"
-              >
-                Try a Demo Now!
-              </a>
+            {!isAuthenticated
+              ? [
+                  <div>
+                    <a
+                      href="/WeScribe-Frontend/login"
+                      type="button"
+                      class="btn btn-outline-primary btn-lg px-4 me-md-2"
+                    >
+                      Sign In
+                    </a>
+                    <label style={{ color: "transparent" }}>.......</label>
+                    <a
+                      href="/WeScribe-Frontend/board"
+                      type="button"
+                      class="btn btn-outline-secondary btn-lg px-4 me-md-2"
+                    >
+                      Try a Demo Now!
+                    </a>
 
-              <p
-                class="text-muted"
-                style={{ fontSize: "0.8em", marginRight: "55%" }}
-              >
-                *Sign in to save your notes
-              </p>
-            </div>
+                    <p
+                      class="text-muted"
+                      style={{ fontSize: "0.8em", marginRight: "55%" }}
+                    >
+                      *Sign in to save your notes
+                    </p>
+                  </div>,
+                ]
+              : [
+                  <a
+                    href="/WeScribe-Frontend/notes"
+                    type="button"
+                    class="btn btn-outline-primary btn-lg px-4 me-md-2"
+                  >
+                    View your Notes
+                  </a>,
+                ]}
           </div>
         </div>
       </div>
     </div>
   );
 }
+const mapStateToProps = (state) => {
+  return {
+    isAuthenticated: state.isAuthenticated,
+    username: state.username,
+  };
+};
 
-export default Home;
+export default connect(mapStateToProps)(Home);
