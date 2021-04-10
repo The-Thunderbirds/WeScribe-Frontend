@@ -1,20 +1,20 @@
-.nav-link {
-  /* border-radius: 25px; */
-  margin: 0 1vw;
-  font-style: normal;
-  font-family: sans-serif, Poppins;
+.nav-link{
+    /* border-radius: 25px; */
+    margin: 0 1vw;
+    font-style: normal;
+    font-family: sans-serif,Poppins ;
 }
 
-.nav-link span {
-  color: #000000;
+.nav-link span{
+    color: #000000;
 }
-.navbar {
-  /* border-bottom: 1px dotted #000000; */
-  background-color: transparent;
-  padding-top: 0;
-  padding-bottom: 0;
+.navbar{
+    /* border-bottom: 1px dotted #000000; */
+    background-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-.navbar_logo {
-  height: 8vh;
+.navbar_logo{
+    height: 8vh;
 }

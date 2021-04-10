@@ -35,39 +35,28 @@
       // When the single page app is loaded further down in this file,
       // the correct url will be waiting in the browser's history for
       // the single page app to route accordingly.
-      (function (l) {
-        if (l.search[1] === "/") {
-          var decoded = l.search
-            .slice(1)
-            .split("&")
-            .map(function (s) {
-              return s.replace(/~and~/g, "&");
-            })
-            .join("?");
-          window.history.replaceState(
-            null,
-            null,
-            l.pathname.slice(0, -1) + decoded + l.hash
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
           );
         }
-      })(window.location);
+      }(window.location))
     </script>
     <!-- Firebase -->
     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-database.js"></script>
 
     <!-- CodeMirror -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.css"/>
 
     <!-- Firepad -->
-    <link
-      rel="stylesheet"
-      href="https://firepad.io/releases/v1.5.10/firepad.css"
-    />
+    <link rel="stylesheet" href="https://firepad.io/releases/v1.5.10/firepad.css" />
     <script src="https://firepad.io/releases/v1.5.10/firepad.min.js"></script>
     <title>WeScribe</title>
   </head>
@@ -83,6 +72,7 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+      
     -->
   </body>
 </html>

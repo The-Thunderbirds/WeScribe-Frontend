@@ -12,7 +12,7 @@ function MyNavbar(props) {
   return (
     <Navbar collapseOnSelect bg="navbar">
       <Container>
-        <Navbar.Brand as={Link} className="nav-brand" to="/WeScribe-Frontend/">
+        <Navbar.Brand as={Link} className="nav-brand" to="/WeScribe_Frontend/">
           <img className="navbar_logo" src={logo} />
         </Navbar.Brand>
 
@@ -25,7 +25,7 @@ function MyNavbar(props) {
                     key="1"
                     as={Link}
                     className="nav-link"
-                    to="/WeScribe-Frontend/register"
+                    to="/WeScribe_Frontend/register"
                   >
                     <span>Register</span>
                   </Nav.Link>,
@@ -33,7 +33,7 @@ function MyNavbar(props) {
                     key="2"
                     as={Link}
                     className="nav-link"
-                    to="/WeScribe-Frontend/login"
+                    to="/WeScribe_Frontend/login"
                   >
                     <span>Login</span>
                   </Nav.Link>,
@@ -43,7 +43,7 @@ function MyNavbar(props) {
                     key="3"
                     as={Link}
                     className="nav-link"
-                    to="/WeScribe-Frontend/notes"
+                    to="/WeScribe_Frontend/notes"
                   >
                     <span>Notes</span>
                   </Nav.Link>,
@@ -51,7 +51,7 @@ function MyNavbar(props) {
                     key="4"
                     as={Link}
                     className="nav-link"
-                    to="/WeScribe-Frontend/"
+                    to="/WeScribe_Frontend/"
                     onClick={logout}
                   >
                     <span>Logout</span>

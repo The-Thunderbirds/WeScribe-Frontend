@@ -32,7 +32,7 @@ function Home(props) {
               ? [
                   <div>
                     <a
-                      href="/WeScribe-Frontend/login"
+                      href="/WeScribe_Frontend/login"
                       type="button"
                       class="btn btn-outline-primary btn-lg px-4 me-md-2"
                     >
@@ -40,7 +40,7 @@ function Home(props) {
                     </a>
                     <label style={{ color: "transparent" }}>.......</label>
                     <a
-                      href="/WeScribe-Frontend/board"
+                      href="/WeScribe_Frontend/board"
                       type="button"
                       class="btn btn-outline-secondary btn-lg px-4 me-md-2"
                     >
@@ -57,7 +57,7 @@ function Home(props) {
                 ]
               : [
                   <a
-                    href="/WeScribe-Frontend/notes"
+                    href="/WeScribe_Frontend/notes"
                     type="button"
                     class="btn btn-outline-primary btn-lg px-4 me-md-2"
                   >
